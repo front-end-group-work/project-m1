@@ -1,0 +1,169 @@
+.kamil {
+  font-family: "Roboto", sans-serif;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.kamil h1 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 26px;
+  line-height: 26.36px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.kamil .margin-bottom-30px {
+  margin-bottom: 30px;
+}
+
+.kamil li {
+  margin-left: -18px;
+}
+
+.kamil .what-we-learn-content {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.kamil .flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.kamil .grid-container {
+  display: grid;
+  grid-template-columns: repeat(1, 185.92px);
+  grid-template-rows: repeat(9, 152.84px);
+  row-gap: 24.16px;
+}
+
+.kamil .grid-item {
+  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.25);
+  border: 0.1px;
+  border-radius: 15px;
+}
+
+/* .kamil .img{
+  width: 100%;
+} */
+
+.kamil .prog-name {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.kamil .date-and-moderator {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+.kamil .prog-name,
+.kamil .date-and-moderator {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .kamil {
+    margin-left: 70.08px;
+    margin-right: 70.08px
+  }
+  
+  .kamil h1 {
+    font-size: 32px;
+    line-height: 32.44px;
+    margin-top: 130px;
+    margin-bottom: 70px;
+  }
+
+  .kamil .what-we-learn-content {
+    font-size: 14px;
+    /* line-height: 150%; */
+  }
+
+  .kamil .grid-container {
+    grid-template-columns: repeat(3, 231.09px);
+    grid-template-rows: repeat(3, 189.97px);
+    column-gap: 21.42px;
+    row-gap: 23.44px;
+  }
+
+  .kamil .grid-item {
+    border-radius: 20px;
+  }
+
+  .kamil img {
+    width: 231.09px;
+  }
+
+  .kamil .prog-name {
+    font-size: 17px;
+  }
+
+  .kamil .date-and-moderator {
+    font-size: 14px;
+  }
+
+  .kamil .prog-name,
+  .kamil .date-and-moderator {
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .kamil {
+    margin-left: 121px;
+    margin-right: 121px;
+  }
+
+  .kamil h1 {
+    font-size: 55px;
+    line-height: 55.76px;
+    margin-top: 180px;
+    margin-bottom: 100px;
+  }
+
+  .kamil .what-we-learn-content {
+    font-size: 24px;
+    /* line-height: 150%; */
+  }
+
+  .kamil .grid-container {
+    grid-template-columns: repeat(3, 399px);
+    grid-template-rows: repeat(3, 328px);
+    column-gap: 37px;
+    row-gap: 41px;
+  }
+
+  .kamil .grid-item {
+    border-radius: 30px;
+  }
+
+  .kamil img {
+    width: 399px;
+  }
+
+  .kamil .prog-name {
+    font-size: 30px;
+  }
+
+  .kamil .date-and-moderator {
+    font-size: 25px;
+  }
+
+  .kamil .prog-name,
+  .kamil .date-and-moderator {
+    position: relative;
+    bottom: 22px;
+    left: 22px;
+  }
+}
